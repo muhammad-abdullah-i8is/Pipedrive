@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+
+}
+
+.content {
+  /* margin-left: 2%; */
+  /* padding: 30px; */
+  /* flex-grow: 1; */
+  /* background-color: rgb(253, 252, 251); */
+  height: 100vh;
+  width: 100vw;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+}

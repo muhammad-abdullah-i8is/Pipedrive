@@ -1,0 +1,45 @@
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    background-color: #33244e;
+
+    padding: 10px;
+    width: 4;
+
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+
+}
+
+.sidebar-item {
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    padding: 10px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    color: white;
+}
+
+.sidebar-item:first-child {
+    margin-top: 150%;
+
+}
+
+.sidebar-item:hover {
+    background-color: #9932CC;
+}
+
+.sidebar-text {
+    margin-left: 10px;
+    /* Space between icon and text */
+}
+
+.sidebar-item.selected {
+    background-color: #9932CC;
+
+}
